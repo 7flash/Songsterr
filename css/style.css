@@ -1,0 +1,20 @@
+html {
+    background-color: white;
+}
+
+body {
+    background-color: white;
+}
+
+header {
+    text-align: center;
+}
+
+iframe {
+    height: 100%;
+    width: 100%;
+}
+
+#about {
+    text-align: center;
+}

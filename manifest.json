@@ -1,0 +1,47 @@
+{
+    "AppDescription": {
+        "en": "An application that displays guitar tabs for the song that is playing."
+    },
+    "AppIcon": {
+        "18x18": "icon18.png"
+    },
+    "AppName": {
+        "en": "Songsterr"
+    },
+    "BundleIdentifier": "songsterr",
+    "BundleType": "Application",
+    "BundleVersion": "0.1",
+    "DefaultTabs": [
+        {
+            "arguments": "tabs",
+            "title": {
+                "en": "Tabs"
+            }
+        },
+        {
+            "arguments": "chords",
+            "title": {
+                "en": "Chords"
+            }
+        },
+        {
+            "arguments": "about",
+            "title": {
+                "en": "About"
+            }
+        }
+    ],
+    "Dependencies": {
+        "api": "0.2.3",
+        "util": "0.1.0",
+        "resources": "0.2.2"
+    },
+    "RequiredInterface": 1,
+    "RequiredPermissions": [
+        "http://www.songsterr.com"
+    ],
+    "SupportedLanguages": [
+        "en"
+    ],
+    "VendorIdentifier": "me.pn.andrewscarani"
+}

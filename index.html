@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Spotify CSS files -->
+    <link rel="stylesheet" type="text/css" href="sp://resources/css/eve.css">
+    <link rel="stylesheet" type="text/css" href="sp://resources/css/api.css">
+    <link rel="stylesheet" type="text/css" href="sp://resources/css/player.css">
+    <link rel="stylesheet" type="text/css" href="sp://resources/css/list.css">
+
+    <!-- Project CSS files -->
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+
+</head>
+<body>
+    <!--<div id="nowPlaying"></div>-->
+    <div id="wrapper">
+        <div id="tabs" class="section">
+            <iframe id="tabs_frame" src="" frameborder="0" sandbox="allow-same-origin"></iframe>
+        </div>
+
+        <div id="chords" class="section">
+            <iframe id="chords_frame" src="" frameborder="0" sandbox="allow-same-origin"></iframe>
+        </div>
+
+        <div id="about" class="section">
+            <p><b>Songsterr Unofficial Spotify App</b></p>
+            <p>Developed by <a href="http://andrewscarani.me.pn">Andrew Scarani</a>
+                using the <a href="http://www.songsterr.com/a/wa/api">Songsterr API</a></p>
+            <p>
+            <br>
+            This application returns the 'best fit' tabs and/or chords for the song that is currently playing in Spotify.
+            </p>
+        </div>
+    </div>
+<script src="/js/jquery.min.js"></script>
+<script src="/js/songsterr.js"></script>
+</body>
+</html>
